@@ -1,0 +1,450 @@
+body{background-image: url(image/fon.png);
+	margin: 0;
+	padding: 0;
+
+}
+.conteiner {
+	width: 1140px;
+	background-color: #f6f6f6;
+	margin: 0 auto;
+	padding-bottom: 0;
+	display: flex;
+	flex-direction: column;
+}
+.fontrmb {
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+
+}
+
+/*-----header-----*/
+header{
+	
+}
+.long {
+	width: 100vw;
+}
+.name {display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+	background-color: #ffcc66;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+}
+.general{
+	height: 110px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	
+}
+.logo{
+    height: 100px;
+    margin-left: 30px
+	
+}
+.discrip{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: italic;
+	color: #993366;
+	line-height: 28px;
+	padding-left: 150px;
+}
+.obertka{
+
+	width: 372px;
+	padding-left: 90px;
+	
+}
+
+.phone, .main_name_card{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	line-height: 40px;
+	font-weight: 600;
+	color: #993366;
+    float: right;
+}
+
+.poisk{
+	width: 310px;
+	height: 25px;
+	border-radius: 20px;
+}
+.basket{position: relative;
+    float: right;
+    top: -35px;
+
+	}
+
+.menu{margin: 0;	
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0;
+    margin-right: 20px ;
+    margin-left: 20px
+
+}
+li {display: flex;
+	list-style: none;
+	width: 255px;
+	height: 40px;
+	background-color: #ff9900;
+	justify-content: center;
+	align-items: center;
+    border-radius: 20px;
+    
+        
+	
+	
+}
+/*-----main-----*/
+.main {
+	display: flex;
+	flex-direction: column;
+}
+/*-----------------Карусель-------------------*/
+.slider {
+width: 830px;
+height: 200px;
+overflow: hidden;
+position: relative;
+padding: 17px 67px 6px 153px;
+margin-bottom: 10px;
+background: #f6f6f6;
+margin: 0px;}
+.box-top {
+width: 830px;
+overflow: hidden;
+color: #616161;
+float: left;
+position: relative;
+left: 0;}
+
+.box-top ul li {
+width: 200px;
+height: 185px;
+padding: 0 10px 0 0;
+display: inline-block;
+float: left;    text-align: center;}
+.slider .box-top img {
+width: 200px;
+height: 145px;}
+
+.box-left {
+width: 55px;
+padding: 0;
+margin: 64px 0 0 0;
+text-align: center;
+font-size: 0;
+line-height: 0;
+left: 10px;
+position: absolute;
+z-index: 200;}
+.box-left a {
+width: 38px;
+height: 38px;
+overflow: hidden;
+text-indent: 50px;
+background: url(images/prev.gif) no-repeat 0 0;
+display: block;
+cursor: pointer;}
+.box-top ul {
+list-style: none;
+padding: 0;}
+.box-top a {
+color: #fff;
+text-decoration: none;font-size: 12px;}
+.box-top img {
+margin-bottom: 3px;}
+.box-right {
+width: 56px;
+padding: 0;
+margin: 64px 0 0 0;
+text-align: right;
+font-size: 0;
+line-height: 0;
+position: absolute;
+right: 23px;
+z-index: 200;}
+.box-right a {
+width: 38px;
+height: 38px;
+overflow: hidden;
+text-indent: 50px;
+background: url(images/next.gif) no-repeat 0 0;
+display: block;
+float: right;
+cursor: pointer;}
+
+
+/*-----------------Карусель-------------------*/
+.akcii{
+	display: flex;
+}
+.text{
+	width: 60%;
+}
+p{font-family: 'Roboto', sans-serif;
+	
+	color: #707070;
+	display: flex;
+	
+	justify-content: center;
+}
+.zakaz {
+	color: #996633;
+}
+.fon{display: flex;
+	
+	
+	background-repeat: no-repeat;
+	background-position: right center;
+	margin-right: 30px;
+	height: 120px;
+	align-items: center;
+	padding-left: 25px;
+	
+
+}
+.book {
+	background-image: url(image/book.png);
+	width: 20%;
+}
+.magic {
+	background-image: url(image/Magic.png);
+	width: 20%;
+
+}
+/*-----card-----*/
+.cards {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.main_name_card{ display: flex;
+	flex-direction: column;
+	width: 371px;
+	height: 338px;
+	padding-left: 40px;
+	box-shadow:  -18px 21px 10px -1px rgba(0, 0, 0. ,2);
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	line-height: 40px;
+	font-weight: 600;
+	color: #777777;
+
+}
+.card_conteiner {
+	display: flex;
+	flex-direction: row;
+}
+h2 {font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 600;
+	color: #777777;
+
+}
+.card_discr {
+	font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 28px;
+color: #777;
+padding-left: 48px;
+}
+.podval_card {
+	display: flex;
+	flex-direction: row;
+	padding-top: 31px;
+	padding-bottom: 20px;
+
+}
+.card_forum{
+	display: flex;
+	flex-grow:2;
+}
+.onus_main, .card_price, .basket_card{
+	flex-grow:1;
+}
+.ezhik_za_otzyv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fc6;
+	height: 47px;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	font-style: italic;
+	line-height: 28px;
+	color: #900035;
+	margin-bottom: 31px;
+	margin-top: 70px;
+
+}
+footer{
+	height: 176px;	
+	background-color: #c4c4c4;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	margin-top: 100px;
+
+}
+.footer_main{width: 1140px;
+		margin: 0 auto;
+display: flex;
+padding-top: 22px;
+}
+/*-----footer-----*/
+.footer{
+	flex-direction: row;
+	font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 28px;
+color: #7f7f7f;
+width: 33%;
+padding-left: 96px;
+ 
+}
+
+
+/*-----card of good-----*/
+.card_content {
+	display: flex;
+	flex-direction: column;
+}
+.kroshki{font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 28px;
+margin: 20px auto 30px 0;
+
+}
+.name_card{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 32px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #993366;
+
+}
+.main_card {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+}
+aside {
+	padding-left: 174px;
+}
+.image_card {
+	
+	padding-left: 84px;
+}
+.discrip_card {
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-size: 18px;
+line-height: 28px;
+color: #666666;
+padding-top: 35px;
+}
+.price {
+	width: 276px;
+	height: 65px;
+	background-image: url(image/bonusezh.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding-top: 35px;
+	margin-bottom: 35px;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 32px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #cc0066;
+}
+.btn-green {
+	
+	padding: 24px 113px;
+	border: 3px solid;
+	border-radius: 20px;
+	border-color: #006666;
+}
+.btn-green a{
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-size: 32px;
+	line-height: 28px;
+	font-weight: 600;
+	color: #009966;
+	text-decoration: none;
+}
+.otzyvy {
+	display: flex;
+	flex-flow: row wrap;
+	padding-top: 40px;
+}
+.about_good, .otzyv {
+	
+	width: 66%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	line-height: 28px;
+	color: #666666;
+}
+.about_good p{
+	padding-top: 42px;
+
+}
+.sluchainyi {
+	display: flex;
+	width: 34%;
+	justify-content: flex-end;
+	padding-top: 40px;
+
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+	.conteiner {
+	
+	width: 100%;
+}
+header {
+	width: 100vw;
+}
+.general{
+	min-height: 87px;
+	align-items: flex-start;
+	
+}
+.discrip {
+
+	font-size: 18px;
+	padding-left: 20px;
+	align-items: flex-start;
+
+}
+.seach {
+	display: flex;
+	align-items: flex-start;
+}
+
+.name {
+	top: 70px;
+	font-size: 12px;
+	
+
+
+}
+.phone {
+	align-items: flex-end;
+}
+
+
+}
+
