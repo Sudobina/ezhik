@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Интернет-магазин детского питания "Крошка-ежка"</title>
+	<link rel="stylesheet" media="screen" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|M+PLUS+Rounded+1c" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">  
+	<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="jquery-ui.min.js"></script>
+    <script>
+    $(window).bind('load', function(){
+    $().prepare_slider();
+    $('#slider_list > li').over();
+    var slider_link = $('.slider .box-right a');
+    var slider_link_index = 1;
+    var slider_count = $('#slider_list > li').size();
+    function slider_intro(){
+    //if(slider_link_index <= slider_count){
+    slider_link.trigger('click');
+    slider_link_index++;
+    setTimeout(function(){slider_intro()}, 4000);    
+    //}
+    }
+    setTimeout(function(){slider_intro()}, 4000)      
+    });
+
+    </script>
+</head>
+<body >
+	
+	<header>
+		<div class="name long">БЕСПЛАТНАЯ ДОСТАВКА ПО НИЖНЕМУ НОВГОРОДУ ПРИ ЗАКАЗЕ ОТ 300 РУБ
+		</div>
+		<div class="general conteiner">
+		<div class="logo"><img src="image/ezhik.png"></div>
+		<div class="discrip">полезное детское питание<br><img src="image/el1.png">и не только <img src="image/el2.png"></div>
+		<div class="obertka">
+			<div class="phone"><img src=""> 8 800-000-00-00</div>
+			<div class="seach">
+				<input class="poisk" value="Быстрый поиск"></div>
+				<div class="basket"><img src="image/Basket.png"></div>
+	    </div>
+		</div>
+		<div class="conteiner">
+			<ul class="menu fontrmb">
+				<li>о нас</li>
+				<li>полезное питание</li>
+				<li>доставка и оплата</li>
+				<li>блог</li>
+			</ul>
+		</div>
+	</header>
+	<main class="main conteiner">
+    
+    
+     <h2>АКЦИИ ДНЯ</h2>
+    <div class="slider">
+        <div class="box-left"><a id="left_but">&nbsp;</a></div>
+            <div class="box-top">
+                <ul id="slider_list" >
+                    <li><a href=""><img src="image/1.1.jpg">Nutrilon -25%</a></li>
+                    <li><a href=""><img src="image/1.2.jpg">Dimension Low Profile Baitcast Reel</a></li>
+                    <li><a href=""><img src="image/2.7.jpg.">Quantum Catalyst spinning Reel</a></li>
+                    <li><a href=""><img src="image/1.4.jpg.">Alpha Spinning Reel</a></li>
+                    <li><a href=""><img src="image/1.5.jpg.">Quantum Accurist PT Baitcaster</a></li>
+                    <li><a href=""><img src="image/1.6.jpg.">Quantum Kinetic Baitcast Reel</a></li>
+                </ul>
+            </div>                                   
+         <div class="box-right"><a id="right_but">&nbsp;</a></div>
+    </div>
+	
+        
+	<div class="akcii">
+	<div class="book fontrmb fon">почитать сказку</div>
+	<div class="text">
+		<p>В нашем каталоге представлен интересный ассортимент детского питания.</p>
+		<p>Вы также можете <span class="zakaz"> заказать </span> смесь по особому рецепту.</p>
+		<p>Наличие самовывоза, быстрая и удобная доставка по Нижнему Новгороду.</p>
+		<p>Желаем вам приятных покупок!</p>
+	</div>
+	<div class="magic fon fontrmb">опубликовать <br>свою сказку</div>
+	</div>
+	<div class="cards">
+	<div class="main_name_card">
+		<div><a href="card.html">Кашка кукурузная Heinz</a></div>
+	<div class="card_conteiner">
+		<div><img src="image/Heinz_kasha.png" width="172" height="218"></div>
+		<div class="card_discr">
+				молочная, <br>
+				кукурузная,<br> 
+				без глютена, <br>
+				рекомендуемый возраст: 4 месяца,<br> 
+				без сахара, <br>
+				без соли, <br>
+				с пребиотиками, <br>
+				вес 160 г<br>
+	    </div>
+	</div>
+	
+	<div class="podval_card">
+		<div class="card_forum">Отзывы</div>
+		<div class="onus_main"><img src="image/onus_main.png"></div>
+		<div class="card_price"> 100 руб</div>
+		<div class="basket_card"><img src="image/Basket_card.png"></div>
+	</div>
+</div>
+<div class="main_name_card">
+		<a href="card.html">Кашка кукурузная Heinz</a>
+	<div class="card_conteiner">
+		<img src="image/Heinz_kasha.png" width="172" height="218">
+		<div class="card_discr">
+				молочная, <br>
+				кукурузная,<br> 
+				без глютена, <br>
+				рекомендуемый возраст: 4 месяца,<br> 
+				без сахара, <br>
+				без соли, <br>
+				с пребиотиками, <br>
+				вес 160 г<br>
+	</div>
+	</div>
+	
+	<div class="podval_card">
+		<div class="card_forum">Отзывы</div>
+		<div class="onus_main"><img src="image/onus_main.png"></div>
+		<div class="card_price"> 100 руб</div>
+		<div class="basket_card"><img src="image/Basket_card.png"></div>
+	</div>
+</div>
+<div class="main_name_card">
+		<a href="card.html">Кашка кукурузная Heinz</a>
+	<div class="card_conteiner">
+		<img src="image/Heinz_kasha.png" width="172" height="218">
+		<div class="card_discr">
+				молочная, <br>
+				кукурузная,<br> 
+				без глютена, <br>
+				рекомендуемый возраст: 4 месяца,<br> 
+				без сахара, <br>
+				без соли, <br>
+				с пребиотиками, <br>
+				вес 160 г<br>
+	</div>
+	</div>
+	
+	<div class="podval_card">
+		<div class="card_forum">Отзывы</div>
+		<div class="onus_main"><img src="image/onus_main.png"></div>
+		<div class="card_price"> 100 руб</div>
+		<div class="basket_card"><img src="image/Basket_card.png"></div>
+	</div>
+</div>
+</div>
+<div class="ezhik_za_otzyv">Напиши отзыв и получи 5 бонусных ёжиков<img src="image/bonusezhik.png"></div>
+<div class="cards">
+	<div class="main_name_card">
+		<a href="card.html">Кашка кукурузная Heinz</a>
+	<div class="card_conteiner">
+		<img src="image/Heinz_kasha.png" width="172" height="218">
+		<div class="card_discr">
+				молочная, <br>
+				кукурузная,<br> 
+				без глютена, <br>
+				рекомендуемый возраст: 4 месяца,<br> 
+				без сахара, <br>
+				без соли, <br>
+				с пребиотиками, <br>
+				вес 160 г<br>
+	</div>
+	</div>
+	
+	<div class="podval_card">
+		<div class="card_forum">Отзывы</div>
+		<div class="onus_main"><img src="image/onus_main.png"></div>
+		<div class="card_price"> 100 руб</div>
+		<div class="basket_card"><img src="image/Basket_card.png"></div>
+	</div>
+</div>
+<div class="main_name_card">
+		<a href="card.html">Кашка кукурузная Heinz</a>
+	<div class="card_conteiner">
+		<img src="image/Heinz_kasha.png" width="172" height="218">
+		<div class="card_discr">
+				молочная, <br>
+				кукурузная,<br> 
+				без глютена, <br>
+				рекомендуемый возраст: 4 месяца,<br> 
+				без сахара, <br>
+				без соли, <br>
+				с пребиотиками, <br>
+				вес 160 г<br>
+	</div>
+	</div>
+	
+	<div class="podval_card">
+		<div class="card_forum">Отзывы</div>
+		<div class="onus_main"><img src="image/onus_main.png"></div>
+		<div class="card_price"> 100 руб</div>
+		<div class="basket_card"><img src="image/Basket_card.png"></div>
+	</div>
+</div>
+<div class="main_name_card">
+		<a href="card.html">Кашка кукурузная Heinz</a>
+	<div class="card_conteiner">
+		<img src="image/Heinz_kasha.png" width="172" height="218">
+		<div class="card_discr">
+				молочная, <br>
+				кукурузная,<br> 
+				без глютена, <br>
+				рекомендуемый возраст: 4 месяца,<br> 
+				без сахара, <br>
+				без соли, <br>
+				с пребиотиками, <br>
+				вес 160 г<br>
+	</div>
+	</div>
+	
+	<div class="podval_card">
+		<div class="card_forum">Отзывы</div>
+		<div class="onus_main"><img src="image/onus_main.png"></div>
+		<div class="card_price"> 100 руб</div>
+		<div class="basket_card"><img src="image/Basket_card.png"></div>
+	</div>
+</div>
+</div>
+</main>
+<footer>
+	<div class="footer_main">
+	<div class="footer">О нас<br>
+	Каталог<br>
+Бонусная программа<br>
+Доставка и оплата</div>
+	<div class="footer">Акции<br>
+	Узнать статус заказа<br>
+Блог<br>
+Вакансии</div>
+	<div class="footer">Обратная связь<br>
+	8 800-900-00-00<br>
+	<a href="8800900000"><img src="image/whatsapp.png"></a>
+	<a href="https://instagram.com"><img src="image/instagram.png"></a>
+	<a href="https://vk.com"><img src="image/vk.png"></a>
+	<a href="https://ok.ru"><img src="image/classmates.png"></a><br>
+ООО "Крошка Ёжка</div>
+</div>
+</footer>
+</body>
+</html>
